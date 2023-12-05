@@ -17,22 +17,19 @@
   <header id="header">
     <div class="header-content container">
       <a class="logo" href="../index.html">
-        <img class="logo-img" src="../img/reyam.webp" alt="Logo de la marca">
-        <strong>PrintPon</strong>
+        <div id="logo-img"></div>
+        <strong class="header-link">PrintPont</strong>
       </a>
       <nav id="nav">
         <i id="close-icon" class="fa-solid fa-xmark"></i>
         <ul class="list-menu">
-          <li id="user">
-            <i class="fa-solid fa-user box-shadow"></i>
-          </li>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="#">Impresoras</a></li>
-          <li><a href="#">Filamentos</a></li>
-          <li><a href="#">Preguntas</a></li>
+          <li><a href="../index.html"><span class="header-link">Inicio</span></a></li>
+          <li><a href="form.html"><span class="header-link">Registro</span></a></li>
+          <li><a href="printer.html"><span class="header-link">Impresoras</span></a></li>
+          <li><a href="#"><span class="header-link">Preguntas</span></a></li>
         </ul>
         <div class="sing">
-          <a class="btn-log box-shadow" href="#">Log In</a>
+          <a class="btn-log btn box-shadow" href="#">Log In</a>
         </div>
       </nav>
       <i id="nav-menu" class="fa-solid fa-bars"></i>
@@ -49,6 +46,9 @@
 
       <section class="container">
         <h2>Lista de impresoras</h2>
+        <p>Este es el registro para modificar las impresoras y sus características, la lista de estas mismas se
+          encuentra
+          en el apartado de impresoras del header.</p>
         <div class="row">
           <form action="formulario.html" class="form-object col-md-6" id="form" method="get">
 
@@ -99,7 +99,7 @@
                   <th>Modelo</th>
                   <th>Tipo</th>
                   <th>Material</th>
-                  <th>Accion</th>
+                  <th>Acción</th>
                 </tr>
               </thead>
               <tbody id="printer-table"></tbody>
@@ -110,23 +110,42 @@
       </section>
     </div>
   </main>
-  <footer>
-    <div class="container">
+
+  <footer id="footer">
+    <div class="container footer-center">
       <div class="footer-contain">
         <ul class="footer-content ">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Impresoras</a></li>
-          <li><a href="#">Filamentos</a></li>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="form.html">Registro</a></li>
+          <li><a href="printer.html">Impresoras</a></li>
           <li><a href="#">Preguntas</a></li>
         </ul>
         <span>Los derechos reservados a la página</span>
         <ul class="social-media">
-          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-x-twitter"></i> </a></li>
           <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
           <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
           <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
         </ul>
         <p>Las Palmas de Gran Canaria, España</p>
+      </div>
+      <div class="extra">
+        <details>
+          <summary>Correos de contacto</summary>
+          <p>Pintpont@info.com</p>
+          <p>Pintpont-info2@info.com</p>
+          <p>Pintpont-info3@info.com</p>
+        </details>
+        <details>
+          <summary>¿Qué es la impresión 3d?</summary>
+          <p>Es un proceso de impresión tridimensional que</p>
+          <p>crea un objeto real a partir de un archivo digital.</p>
+        </details>
+        <details>
+          <summary>¿Cómo recibo propinas?</summary>
+          <p>Deberá vincular su cuenta de PayPal a su cuenta.</p>
+          <p>Recibirá el pago a en PayPal al comienzo de cada mes.</p>
+        </details>
       </div>
     </div>
   </footer>

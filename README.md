@@ -1,11 +1,13 @@
-# LDN_UT2_Task_2
+# LDN_UT2_Task_3
 
-Task 1 involves the use of HTML, CSS, JavaScript and Boostrap.
+Task 3 involves the use of HTML, CSS, JavaScript and Boostrap.
 
 In this project, I have created HTML and CSS documents based on an image from Dribbble.
 A new page with 'bootstrap 5' was added, containing a form and its respective validation.
 
+I was inspired by the [Angular](www.angular.dev) website to create the 'parallax' effect at the beginning of the page. I also took reference from various pages, including [Apple](https://www.apple.com/es/airpods/), for the overall page design.
 
+Other webside [Awwwards](https://www.awwwards.com/websites/).
 ## Getting Started
 
 Read the following instructions to download and view the documents.
@@ -32,7 +34,6 @@ Ensure you have a computer that can download [Visual Studio Code](https://code.v
 
 *Optional:* You can also use the extension's preview feature located in the upper-right corner.
 
-![Guide_Image](/img/image-2.png)
 
 ## Additional Information
 
@@ -64,5 +65,7 @@ Most of the images are obtained from Dall-e and the rest are my own.
   - [YouTube Tutorial](https://www.youtube.com/watch?v=x99urG4tzCc&list=LL&index=8)
 - **JuanDavid_Dev**
   - [YouTube Tutorial](https://www.youtube.com/watch?v=M3zl6okKnuQ)
+- **JFalconMasters**
+  - [YouTube Tutorial](https://youtu.be/wu_M_V-Hehg?si=fb8oXsS5OYymecae)
 
 -  **To classmates.**

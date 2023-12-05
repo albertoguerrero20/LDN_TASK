@@ -1,4 +1,3 @@
-
 function initalize() {
   const FORM_SINGUP = document.getElementById("form");
   FORM_SINGUP.addEventListener("submit", validateForm);
@@ -12,7 +11,6 @@ function validateForm(event) {
 
   if (!NAME || NAME == "") {
     event.preventDefault();
-    console.log("Nombre obligatorio")
     document.getElementById("error-name").style.display = "block";
   } else {
     document.getElementById("error-name").style.display = "none";
@@ -20,7 +18,6 @@ function validateForm(event) {
 
   if (!MODEL || MODEL == "") {
     event.preventDefault();
-    console.log("Contraseña obligatorio")
     document.getElementById("error-model").style.display = "block";
   }
   else {
@@ -29,7 +26,6 @@ function validateForm(event) {
 
   if (!SELECT || SELECT == "") {
     event.preventDefault();
-    console.log("Selección obligatoria")
     document.getElementById("error-select").style.display = "block";
   } else {
     document.getElementById("error-select").style.display = "none";
@@ -37,12 +33,10 @@ function validateForm(event) {
 
   if (!MATERIAL || MATERIAL == "") {
     event.preventDefault();
-    console.log("Selección obligatoria")
     document.getElementById("error-material").style.display = "block";
   } else {
     document.getElementById("error-material").style.display = "none";
   }
-
 }
 
 initalize();

@@ -57,15 +57,31 @@ main h1 {
   z-index: 0;
 }
 
+.left{
+  margin: 0 0 12px 12px;
+  font-size: 1rem;
+}
+
+section p{
+  margin-top: 12px;
+  width: 80%;
+}
+
 @media only screen and (width >= 540px) {
   #header-section {
     width: 80vw;
     overflow: visible;
+  }
+  section p{
+    width: 57%;
   }
 }
 
 @media only screen and (width >= 992px) {
   #header-section {
     width: 700px;
+  }
+  section p{
+    width: 38%;
   }
 }
