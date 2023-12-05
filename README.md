@@ -37,7 +37,7 @@ Ensure you have a computer that can download [Visual Studio Code](https://code.v
 
 ## Additional Information
 
-The parallax effect is found on the *"Impresoras"* page.
+The parallax effect is found on the *"Registro"* page.
 
 Most of the images are obtained from Dall-e and the rest are my own.
 
